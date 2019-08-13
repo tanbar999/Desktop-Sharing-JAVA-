@@ -22,7 +22,8 @@ JAR files manifest file (MANIFEST.MF).
 To run the project from the command line, go to the dist folder and
 type the following in your CMD:
 
-->java -jar "RemoteClient.jar" 
+java -jar "RemoteClient.jar" (FOR CLIENT COMPUTER -> PUT THE REMOTECLIENT FOLDER ON CLIENT'S(WILL RECIEVE DESKTOP IMAGE) COMPUTER AND THEN RUN)
+java -jar "RemoteServer.jar" (FOR SERVER COMPUTER -> PUT THE REMOTESERVER FOLDER ON SERVER(WILL SEND THE DESKTOP IMAGE) COMPUTER AND THEN RUN)
 
 To distribute this project, zip up the dist folder (including the lib folder)
 and distribute the ZIP file.
